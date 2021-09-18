@@ -26,6 +26,7 @@ class AccountOperations implements Runnable {
     private String getThreadName() {
         return Thread.currentThread().getName();
     }
+
 }
 
 public class T04SynchronizedThread {
